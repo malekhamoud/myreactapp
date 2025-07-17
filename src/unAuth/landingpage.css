@@ -6,11 +6,10 @@
   min-height: 100vh;
   background: #f5f6fa;
   width: 100%;
-  max-width: 1200px;
+  max-width: 100vw;
   margin: 0 auto;
   box-sizing: border-box;
-
-  padding: 80px 2rem 0 2rem; /* 👈 top padding added to avoid hiding behind navbar */
+  padding: 80px 2rem 0 2rem;
 }
 
 .landing-container h1 {

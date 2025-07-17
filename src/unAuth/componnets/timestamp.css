@@ -1,5 +1,11 @@
 .timestamp {
-  font-size: 0.9em;
-  color: #888;
-  margin: 5px 0;
+  width: 100%;
+  max-width: 900px;
+  padding: 20px;
+  background: #e0e0e0;
+  border-radius: 12px;
+  margin: 16px auto;
+  font-size: 1.1em;
+  color: #222;
+  box-sizing: border-box;
 }
