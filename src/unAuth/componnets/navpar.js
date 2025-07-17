@@ -8,18 +8,16 @@ function Navpar() {
     <nav className="navbar">
       <div className="navbar-left">
         <img src={logo} alt="Logo" className="logo" />
-        <span className="brand-name">Positivus</span>
+        
       </div>
 
       <ul className="navbar-menu">
-        <li className="menu-item">About us</li>
-        <li className="menu-item">Services</li>
-        <li className="menu-item">Use Cases</li>
+        
         <li className="menu-item">Pricing</li>
         <li className="menu-item">Blog</li>
       </ul>
 
-      <button className="quote-button">Request a quote</button>
+      <button className="quote-button">Do more with video</button>
     </nav>
   );
 }

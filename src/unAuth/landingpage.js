@@ -15,7 +15,6 @@ function LandingPage() {
       <Navpar />
       <Bumpups />
       <Timestamp />
-      <h1>Hello Landing Page</h1>
       <Footer />
     </div>
   );

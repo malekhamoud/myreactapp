@@ -5,14 +5,21 @@
   justify-content: center;
   min-height: 100vh;
   background: #f5f6fa;
-  width: 100vw;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
   box-sizing: border-box;
   padding: 0 2rem;
 }
 
 .landing-container h1 {
   color: #2d3436;
-  font-size: 3.5rem;
+  font-size: 5rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin: 2rem 0 0 0;
+  margin: 3rem 0 0 0;
+  font-weight: 700;
+}
+
+.landing-container p, .landing-container span, .landing-container button {
+  font-size: 1.5rem;
 }
