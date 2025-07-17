@@ -9,7 +9,8 @@
   max-width: 1200px;
   margin: 0 auto;
   box-sizing: border-box;
-  padding: 0 2rem;
+
+  padding: 80px 2rem 0 2rem; /* 👈 top padding added to avoid hiding behind navbar */
 }
 
 .landing-container h1 {
