@@ -1,32 +1,19 @@
 import React from "react";
 import "./bumpups.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCloudArrowUp, faComments, faVideo, faClapperboard } from "@fortawesome/free-solid-svg-icons";
 
 function Bumpups() {
   return (
     <div className="bumpups">
       <div className="services-grid">
-        {/* SEO Card */}
+        {/* SEO Card (now Local Video) */}
         <div className="service-card seo-card">
           <div className="card-content">
             <div className="card-header">
-              <h3 className="card-title">Search engine optimization</h3>
-              <div className="card-icon seo-icon">
-                <div className="magnifying-glass">
-                  <div className="glass-circle"></div>
-                  <div className="glass-handle"></div>
-                </div>
-                <div className="network-dots">
-                  <div className="dot"></div>
-                  <div className="dot"></div>
-                  <div className="dot"></div>
-                  <div className="dot"></div>
-                </div>
-                <div className="globe-icon">🌐</div>
-                <div className="play-icon">▶</div>
-                <div className="stars">
-                  <span>★</span>
-                  <span>★</span>
-                </div>
+              <h3 className="card-title">local video </h3>
+              <div className="card-icon">
+                <FontAwesomeIcon icon={faCloudArrowUp} size="3x" />
               </div>
             </div>
             <div className="card-action">
@@ -42,19 +29,9 @@ function Bumpups() {
         <div className="service-card ppc-card">
           <div className="card-content">
             <div className="card-header">
-              <h3 className="card-title">Pay-per-click advertising</h3>
+              <h3 className="card-title">video chat</h3>
               <div className="card-icon ppc-icon">
-                <div className="computer-window">
-                  <div className="window-frame"></div>
-                  <div className="mouse-cursor">👆</div>
-                  <div className="starburst">💥</div>
-                </div>
-                <div className="spring-coil"></div>
-                <div className="globe-icon">🌐</div>
-                <div className="dashed-lines">
-                  <div className="line"></div>
-                  <div className="line"></div>
-                </div>
+                <FontAwesomeIcon icon={faComments} size="3x" />
               </div>
             </div>
             <div className="card-action">
@@ -70,24 +47,9 @@ function Bumpups() {
         <div className="service-card social-card">
           <div className="card-content">
             <div className="card-header">
-              <h3 className="card-title">Social Media Marketing</h3>
+              <h3 className="card-title">AI youtube</h3>
               <div className="card-icon social-icon">
-                <div className="social-post">
-                  <div className="smiley">😊</div>
-                  <div className="rating-stars">
-                    <span>★</span>
-                    <span>★</span>
-                    <span>★</span>
-                    <span>★</span>
-                    <span>★</span>
-                  </div>
-                </div>
-                <div className="floating-hearts">
-                  <span>❤</span>
-                  <span>❤</span>
-                  <span>❤</span>
-                </div>
-                <div className="dots">⋯</div>
+                <FontAwesomeIcon icon={faVideo} size="3x" />
               </div>
             </div>
             <div className="card-action">
@@ -103,26 +65,9 @@ function Bumpups() {
         <div className="service-card email-card">
           <div className="card-content">
             <div className="card-header">
-              <h3 className="card-title">Email Marketing</h3>
+              <h3 className="card-title">API</h3>
               <div className="card-icon email-icon">
-                <div className="mailboxes">
-                  <div className="mailbox left"></div>
-                  <div className="mailbox right"></div>
-                </div>
-                <div className="flying-envelopes">
-                  <div className="envelope">✉</div>
-                  <div className="envelope">✉</div>
-                  <div className="envelope">✉</div>
-                </div>
-                <div className="flow-lines">
-                  <div className="line"></div>
-                  <div className="line"></div>
-                </div>
-                <div className="stars">
-                  <span>★</span>
-                  <span>★</span>
-                  <span>★</span>
-                </div>
+                <FontAwesomeIcon icon={faClapperboard} size="3x" />
               </div>
             </div>
             <div className="card-action">
