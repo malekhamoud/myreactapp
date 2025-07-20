@@ -2,6 +2,12 @@ import React from "react";
 import logo from "../../assets/Screenshot.png";
 import "./navpar.css";
 
+function extractVideoId(url) {
+  // Handles both youtu.be and youtube.com/watch?v= URLs
+  const match = url.match(/(?:v=|\/)([0-9A-Za-z_-]{11})/);
+  return match ? match[1] : null;
+}
+
 function Navpar() {
   return (
     <nav className="navbar">

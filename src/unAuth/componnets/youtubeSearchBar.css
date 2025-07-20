@@ -91,4 +91,25 @@
   margin-top: 8px;
   margin-left: 2px;
   font-weight: 500;
+}
+
+.yt-success {
+  background: #1b5e20;
+  border: 1px solid #4caf50;
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 16px;
+  color: #fff;
+}
+
+.yt-success h4 {
+  margin: 0 0 8px 0;
+  color: #4caf50;
+  font-size: 1.1em;
+}
+
+.yt-success p {
+  margin: 0 0 12px 0;
+  color: #e8f5e8;
+  font-size: 1em;
 } 

@@ -2,9 +2,13 @@ import React from "react";
 import YouTubeSearchBar from "./YouTubeSearchBar";
 
 function Timestamp() {
-  const handleGenerate = (url) => {
-    // Placeholder: handle the valid YouTube URL here
-    console.log("Valid YouTube URL:", url);
+  const handleGenerate = (videoInfo) => {
+    // Handle the video information here
+    console.log("Generating timestamps for:", videoInfo);
+    
+    // You can add your timestamp generation logic here
+    // For now, we'll show an alert to confirm it's working
+    alert(`Generating timestamps for: ${videoInfo.title}`);
   };
 
   return (
