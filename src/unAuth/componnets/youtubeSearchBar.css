@@ -1,0 +1,94 @@
+.yt-search-bar {
+  background: #232323;
+  border-radius: 16px;
+  padding: 32px 32px 28px 32px;
+  max-width: 700px;
+  width: 100%;
+  margin: 40px auto;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.18);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.yt-title {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.yt-desc {
+  font-size: 1.15em;
+  color: #bdbdbd;
+  margin-bottom: 14px;
+  line-height: 1.6;
+}
+
+.yt-desc a {
+  color: #90caf9;
+  text-decoration: underline;
+}
+
+.yt-input-row {
+  display: flex;
+  align-items: center;
+  background: #181818;
+  border-radius: 10px;
+  padding: 0 16px;
+  border: 1.5px solid #333;
+  width: 100%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  margin-top: 6px;
+}
+
+.yt-link-icon {
+  font-size: 1.3em;
+  margin-right: 10px;
+  color: #90caf9;
+}
+
+.yt-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 1.15em;
+  padding: 18px 0;
+  letter-spacing: 0.01em;
+}
+
+.yt-input::placeholder {
+  color: #888;
+  opacity: 1;
+  font-size: 1em;
+}
+
+.yt-generate-btn {
+  background: linear-gradient(90deg, #1976d2 60%, #42a5f5 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 32px;
+  font-size: 1.1em;
+  font-weight: 600;
+  margin-left: 16px;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.10);
+}
+
+.yt-generate-btn:disabled {
+  background: #555;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.yt-error {
+  color: #ff5252;
+  font-size: 1em;
+  margin-top: 8px;
+  margin-left: 2px;
+  font-weight: 500;
+} 

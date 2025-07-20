@@ -1,7 +1,17 @@
 import React from "react";
+import YouTubeSearchBar from "./YouTubeSearchBar";
 
 function Timestamp() {
-  return <div className="timestamp">Timestamp Component</div>;
+  const handleGenerate = (url) => {
+    // Placeholder: handle the valid YouTube URL here
+    console.log("Valid YouTube URL:", url);
+  };
+
+  return (
+    <div className="timestamp">
+      <YouTubeSearchBar onGenerate={handleGenerate} />
+    </div>
+  );
 }
 
 export default Timestamp;
