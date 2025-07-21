@@ -1,0 +1,513 @@
+.bumpups {
+  width: 100%;
+  max-width: 900px;
+  padding: 20px;
+  margin: 16px auto;
+  box-sizing: border-box;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.service-card {
+  border-radius: 12px;
+  padding: 24px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+/* SEO Card - Light gray background with green title highlight */
+.seo-card {
+  background: #f0f0f0;
+}
+
+.seo-card .card-title {
+  background: #32cd32;
+  color: black;
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* PPC Card - Bright lime green background */
+.ppc-card {
+  background: #32cd32;
+}
+
+.ppc-card .card-title {
+  color: white;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Social Media Card - Dark background */
+.social-card {
+  background: #333;
+}
+
+.social-card .card-title {
+  color: white;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Email Marketing Card - Light gray background with green title highlight */
+.email-card {
+  background: #f0f0f0;
+}
+
+.email-card .card-title {
+  background: #32cd32;
+  color: black;
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.card-icon {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+}
+
+/* SEO Icon Styles */
+.seo-icon {
+  position: relative;
+}
+
+.magnifying-glass {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.glass-circle {
+  width: 30px;
+  height: 30px;
+  border: 3px solid #333;
+  border-radius: 50%;
+  position: relative;
+}
+
+.glass-handle {
+  width: 15px;
+  height: 3px;
+  background: #333;
+  position: absolute;
+  bottom: -5px;
+  right: -10px;
+  transform: rotate(45deg);
+}
+
+.network-dots {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.dot {
+  width: 4px;
+  height: 4px;
+  background: #333;
+  border-radius: 50%;
+  margin: 2px;
+  display: inline-block;
+}
+
+.globe-icon {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  font-size: 12px;
+}
+
+.play-icon {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  font-size: 10px;
+  color: #333;
+}
+
+.stars {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  font-size: 8px;
+  color: #333;
+}
+
+/* PPC Icon Styles */
+.ppc-icon {
+  position: relative;
+}
+
+.computer-window {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 40px;
+  height: 30px;
+  border: 2px solid white;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.window-frame {
+  height: 8px;
+  background: white;
+  border-radius: 2px 2px 0 0;
+}
+
+.mouse-cursor {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 12px;
+}
+
+.starburst {
+  position: absolute;
+  top: 12px;
+  right: 8px;
+  font-size: 10px;
+}
+
+.spring-coil {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 20px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.dashed-lines {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.line {
+  width: 20px;
+  height: 1px;
+  background: white;
+  margin: 2px 0;
+  opacity: 0.7;
+}
+
+/* Social Media Icon Styles */
+.social-icon {
+  position: relative;
+}
+
+.social-post {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 40px;
+  height: 50px;
+  background: white;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.smiley {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.rating-stars {
+  font-size: 8px;
+  color: #333;
+}
+
+.floating-hearts {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 10px;
+  color: #333;
+}
+
+.dots {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  font-size: 12px;
+  color: #333;
+}
+
+/* Email Marketing Icon Styles */
+.email-icon {
+  position: relative;
+}
+
+.mailboxes {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  display: flex;
+  gap: 20px;
+}
+
+.mailbox {
+  width: 15px;
+  height: 20px;
+  background: #333;
+  border-radius: 2px;
+}
+
+.flying-envelopes {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.envelope {
+  font-size: 8px;
+  color: white;
+}
+
+.flow-lines {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.flow-lines .line {
+  width: 30px;
+  height: 1px;
+  background: #333;
+  margin: 3px 0;
+  opacity: 0.5;
+}
+
+/* Action Button Styles */
+.card-action {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.action-button {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.action-button.white {
+  background: white;
+}
+
+.action-button:hover .arrow {
+  transform: translateX(6px) scale(1.3) rotate(8deg);
+  transition: transform 0.3s cubic-bezier(0.4, 1.4, 0.6, 1);
+}
+
+.arrow {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  transition: transform 0.3s cubic-bezier(0.4, 1.4, 0.6, 1);
+}
+
+.action-button.white .arrow {
+  color: #35e022;
+}
+
+.action-text {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.seo-card .action-text,
+.email-card .action-text {
+  color: #333;
+}
+
+.ppc-card .action-text,
+.social-card .action-text {
+  color: white;
+}
+
+.cloud-upload-icon {
+  position: relative;
+  width: 70px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cloud-shape {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 60px;
+  height: 36px;
+  background: #fff;
+  border-radius: 50% 50% 60% 60% / 60% 60% 100% 100%;
+  box-shadow: 0 0 0 2px #fff, 10px 0 0 0 #fff, 20px 0 0 0 #fff;
+  z-index: 1;
+}
+
+.cloud-shape::before,
+.cloud-shape::after {
+  content: '';
+  position: absolute;
+  background: #fff;
+  border-radius: 50%;
+}
+.cloud-shape::before {
+  width: 28px;
+  height: 28px;
+  left: -14px;
+  top: 2px;
+}
+.cloud-shape::after {
+  width: 22px;
+  height: 22px;
+  right: -10px;
+  top: 10px;
+}
+
+.upload-arrow {
+  position: absolute;
+  left: 50%;
+  top: 22px;
+  width: 18px;
+  height: 24px;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+.upload-arrow::before {
+  content: '';
+  display: block;
+  width: 6px;
+  height: 16px;
+  background: #dd1010;
+  margin: 0 auto;
+  border-radius: 3px;
+}
+.upload-arrow::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 12px solid #e00505;
+  margin: -2px auto 0 auto;
+  border-radius: 2px;
+}
+
+.mouse-cursor {
+  position: absolute;
+  left: 50%;
+  top: 48px;
+  width: 14px;
+  height: 18px;
+  transform: translateX(-50%);
+  z-index: 3;
+}
+.mouse-cursor::before {
+  content: '';
+  position: absolute;
+  left: 6px;
+  top: 0;
+  width: 2px;
+  height: 14px;
+  background: #fff;
+  border-radius: 1px;
+  transform: rotate(20deg);
+}
+.mouse-cursor::after {
+  content: '';
+  position: absolute;
+  left: 4px;
+  top: 13px;
+  width: 6px;
+  height: 4px;
+  background: #fff;
+  border-radius: 2px 2px 6px 6px;
+  transform: rotate(-10deg);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  
+  .service-card {
+    padding: 20px;
+    min-height: 180px;
+  }
+  
+  .card-icon {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+.seo-card .arrow {
+  color: #32cd32; /* green for contrast on light gray */
+}
+
+.ppc-card .arrow {
+  color: #fff; /* white for contrast on green */
+}
+
+.social-card .arrow {
+  color: #32cd32; /* green for contrast on dark */
+}
+
+.email-card .arrow {
+  color: #32cd32; /* green for contrast on light gray */
+}
