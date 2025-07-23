@@ -20,3 +20,17 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 
+// Initialize Cloud Functions
+const functions = getFunctions(app);
+if (
+  window.location.hostname === "localhost" ||
+  process.env.REACT_APP_ENV === "local"
+) {
+  connectFunctionsEmulator(functions, "localhost", 5001);
+}
+
+export {
+  app,
+  analytics,
+  functions,
+};
