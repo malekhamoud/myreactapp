@@ -13,25 +13,9 @@ from firebase_admin import initialize_app
 # parameter in the decorator, e.g. @https_fn.on_request(max_instances=5).
 set_global_options(max_instances=10)
 
-# initialize_app()
-#
-#
-# @https_fn.on_request()
-# def on_request_example(req: https_fn.Request) -> https_fn.Response:
-#     return https_fn.Response("Hello world!")
+initialize_app()
 
-def add_numbers(a, b):
-    """
-    Adds two numbers and returns the result.
 
-    Args:
-        a (int or float): The first number.
-        b (int or float): The second number.
-
-    Returns:
-        int or float: The sum of a and b.
-    """
-    return a + b
-
-result = add_numbers(3, 5)
-print("The sum is:", result)
+@https_fn.on_request()
+def on_request_example(req: https_fn.Request) -> https_fn.Response:
+     return https_fn.Response("Hello world!")
